@@ -8,3 +8,5 @@ allow system_server sysfs_rtc:file r_file_perms;
 
 # fingerprint
 allow system_server goodix_fp_hwservice:hwservice_manager find;
+
+add_service(system_server, default_android_service);
