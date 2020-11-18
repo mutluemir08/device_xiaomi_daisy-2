@@ -2087,13 +2087,15 @@ product/framework/dpmapi.jar|4696df9793ad676b305d53b5d7ce65ecf74771ad
 product/lib64/com.qualcomm.qti.dpm.api@1.0.so|a70cfc1be3e06cde6318d6969e114429fe1950bb
 product/lib64/libdpmctmgr.so|2426419a75688ab5231565fb65013ee607ba09cb
 product/lib64/libdpmfdmgr.so|97b2f505285ed372a9f3d8a13682ea4022dbd70a
-system_ext/lib64/libdpmframework.so|67ebd736333ae7158632735e3db06a4f9664f6a6
 product/lib64/libdpmtcm.so|9f99848e2574d2302692446d5dd87cd90f972b0c
 -product/priv-app/dpmserviceapp/dpmserviceapp.apk|68b6f0227ae0b065dff635f30bfdc3c23f90c395
 vendor/bin/dpmQmiMgr|0573af990ed2c0af1d7b19f2e634d7f4966ced69
 vendor/etc/init/dpmQmiMgr.rc|67569302d3a8828a9118c835e5b69c51b0c8ac68
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|ab5d46cbf14ce90ab44aaab4dc1520378c568033
 vendor/lib64/libdpmqmihal.so|24b4b7ece0f0ba468e59d2ddcdaa62733635216b
+
+# DPM - from oneplus8 - qssi-user-11-RP1A.201005.001-2009051300-release-keys
+system_ext/lib64/libdpmframework.so|67ebd736333ae7158632735e3db06a4f9664f6a6
 
 # DRM - from LA.UM.8.6.2.r1-06600-89xx.0
 vendor/bin/qseecomd|b6b1b78a4dc7085c2f49d40072094152fb2aecc5
@@ -2429,8 +2431,8 @@ vendor/lib64/libril-qc-hal-qmi.so|4b93df3dd320dc6100e3199cd26f21704ca9c2bb
 vendor/lib64/qcrild_librilutils.so|22ae52ea7750c9011e3880852d800d94d54b030e
 
 # QMI - from LA.UM.8.6.2.r1-08400-89xx.0
-etc/permissions/qti_libpermissions.xml:system_ext/etc/permissions/qti_libpermissions.xml|ef3c88495f2f61a2d16e1445113a9d80f8db0e0a
-etc/permissions/qti_permissions.xml:system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
+etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
+etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
 vendor/bin/irsc_util|6dfe682b6e12be1cb26c0b497681c3e55441b4c5
 vendor/bin/pd-mapper|f5e529a32a816ad9a05abd746a9dd8e6ff443ee1
 vendor/lib/libdiag.so|f148026697304e240958fd6749b6bde6bd55ef5f
